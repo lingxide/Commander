@@ -7,7 +7,7 @@ int bri $1\n
  undo port trunk permit vlan 1\n
  port trunk permit vlan $2\n
 #\n\n
-int range $3 $4\n
+int range $3 to $4\n
  port link-type trunk\n
  undo port trunk permit vlan 1\n
  port trunk permit vlan $2\n

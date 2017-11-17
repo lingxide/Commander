@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 if [[ $# -eq 2 ]]; then
 echo -e "\n### SSH Generator Start ###\n
 local-user $1 class manage\n
